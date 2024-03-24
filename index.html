@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>LIVE SCORE</title>
+        <link rel="stylesheet" href="index.css">
+        
+        <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/digital-numbers');
+        </style>  
+    </head>
+    
+    <body>
+        <div class="container">
+                <div class="scorebox">
+                <h3>HOME</h3>
+                <h2 class="score" id="scorehome">0</h2>
+                    <div class="button">
+                        <button id="buttonOne">+1</button>
+                        <button id="buttonTwo">+2</button>
+                        <button id="buttonThree">+3</button>
+                    </div>
+                </div>
+                
+                <div class="scorebox">
+                <h3>GUEST</h3>
+                <h2 class="score" id="scoreguest">0</h2>
+                    <div class="button">
+                        <button id="buttonOneGuest">+1</button>
+                        <button id="buttonTwoGuest">+2</button>
+                        <button id="buttonThreeGuest">+3</button>
+                    </div>
+                </div>
+
+        </div>
+        
+        <div class="reset">
+            <button id="buttonGame">NEW GAME</button>
+        </div>
+               
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
